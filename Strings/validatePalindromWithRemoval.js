@@ -1,6 +1,6 @@
 // cleaner solution takes the check for leftIdx + 1 and rightIdx -1 into a individual function
-// time = O(n)
-// space = O(1)
+// Runtime: O(N) where N is the number of characters in our string
+// Space complexity: O(1) or constant
 
 function validatePalindromeWithRemovalTwo(string) {
   let leftIdx = 0;
