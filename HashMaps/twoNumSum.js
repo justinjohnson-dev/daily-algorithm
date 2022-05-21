@@ -1,3 +1,6 @@
+// O(n) time complexity where n is the size of the input array
+// O(n) space, keeping auxillary hashmap in memory size of input array
+
 function twoNumSum(array, target) {
   const hashTable = {};
   for (let i = 0; i < array.length; i++) {
