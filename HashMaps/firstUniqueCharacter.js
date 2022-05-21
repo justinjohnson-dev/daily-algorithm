@@ -1,5 +1,5 @@
 // O(n * n) => O(n) time complexity where n is the size of the characters from input string
-// O(n) as we have a hashset with size of input string (could have upper case letters)
+// O(1) if our hashtable will only have lowercase chars no more than 26 chars in length
 
 function firstNonRepeatingCharacter(string) {
   // loop through the string
