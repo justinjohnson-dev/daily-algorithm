@@ -10,12 +10,13 @@ function intersectionOfNumbers(arr1, arr2) {
   }
 
   for (const value of arr2) {
-    if (hashTable[value] && hashTable[value] !== 0) {
+    if (hashTable[value]) {
       intersection.push(value);
-      hashTable[value] = 0;
+      delete hashTable[value];
     }
   }
 
+  console.log(hashTable);
   return intersection;
 }
 
